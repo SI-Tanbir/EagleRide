@@ -21,7 +21,7 @@
         <div class="m-auto justify-between navbar bg-base-100">
             <div class="">
                 <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <div tabindex="0" role="button" class="btn btn-ghost  lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -34,8 +34,8 @@
                         <li>
                             <a>Parent</a>
                             <ul class="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
+                                <li><a>Home =</a></li>
+                                <li><a>Contact</a></li>
                             </ul>
                         </li>
                         <li><a>Item 3</a></li>
@@ -63,125 +63,74 @@
 
 
 
-    <main>
-        <!-- stating of carusole  -->
-        <div class="carousel  m-20 ">
-
-            <!-- starting of slide 1  -->
-
-            <div id="slide1" class="  bg-[#ef23ab21] flex carousel-item relative w-full">
-                <div class="p-10">
-                    <h2 class="text-3xl font-bold">Ride-on R15 V4 with Smile</h2>
-                    <p>Amet minim mollit non deserunt ullamco
-                        est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <div class="">
-                        <a class="btn bg-orange-600 text-white">Purchase</a>
-                    </div>
-
-
-                </div>
-
-                <img src="./images/slider/bike2.png" class="w-1/2" />
-                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide4" class="btn btn-circle">❮</a>
-                    <a href="#slide2" class="btn btn-circle">❯</a>
-                </div>
+    <main class="w-full">
+        <!-- carousol start -->
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img
+                src="./images/others/latest1.png"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
             </div>
-
-            <!-- starting of slide next 3 -->
-            <div id="slide2" class="carousel-item bg-[#ef23ab21] relative w-full">
-
-                <div class="p-10">
-                    <h2 class="text-3xl font-bold">Ride-on R15 V4 with Smile</h2>
-                    <p>Amet minim mollit non deserunt ullamco
-                        est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <div class="">
-                        <a class="btn bg-orange-600 text-white">Purchase</a>
-                    </div>
-
-
-                </div>
-                <img src="./images/slider/bike1.png" class="w-1/2" />
-                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide1" class="btn btn-circle">❮</a>
-                    <a href="#slide3" class="btn btn-circle">❯</a>
-                </div>
+            <div id="slide2" class="carousel-item relative w-full">
+              <img
+                src="./images/others/latest2.png"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
             </div>
-
-
-            <div id="slide3" class=" bg-[#ef23ab21] carousel-item relative w-full">
-                <div class="p-10">
-                    <h2 class="text-3xl font-bold">Ride-on R15 V4 with Smile</h2>
-                    <p>Amet minim mollit non deserunt ullamco
-                        est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <div class="">
-                        <a class="btn bg-orange-600 text-white">Purchase</a>
-                    </div>
-
-
-                </div>
-
-                <img src="./images/slider/bike3.png" class="w-1/2" />
-                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide2" class="btn btn-circle">❮</a>
-                    <a href="#slide4" class="btn btn-circle">❯</a>
-                </div>
-
-
-
+            <div id="slide3" class="carousel-item relative w-full">
+              <img
+                src="./images/others/latest3.png"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
             </div>
-            <div id="slide4" class=" bg-[#ef23ab21] carousel-item relative w-full">
-                <div class="p-10">
-                    <h2 class="text-3xl font-bold">Ride-on R15 V4 with Smile</h2>
-                    <p>Amet minim mollit non deserunt ullamco
-                        est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <div class="">
-                        <a class="btn bg-orange-600 text-white">Purchase</a>
-                    </div>
-
-
-                </div>
-
-
-                <img src="./images/slider/bike4.png" class="w-1/2" />
-                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide3" class="btn btn-circle">❮</a>
-                    <a href="#slide1" class="btn btn-circle">❯</a>
-                </div>
+            <div id="slide4" class="carousel-item relative w-full">
+              <img
+                src="./images/others/extrabike.png"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide3" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
             </div>
-
-
-
-        </div>
-
+          </div>
 
 
 
         <!-- starting of features bikes in this year -->
 
-        <div class="text-center">
+        <div class="text-center  w-full p-10 lg:p-44">
             <h2 class="font-extrabold text-4xl">Fetured Bikes In This Year</h2>
             <p class="text-orange-600">Best bike collection</p>
 
-            <div class="flex gap-16 justify-center">
-                <img src="./images/others/feature-bike.png" alt="">
-                <img src="./images/others/feature-bike.png" alt="">
-                <img src="./images/others/feature-bike.png" alt="">
+            <div class=" flex flex-col lg:flex-row  gap-16  ">
+                <img  class="w-full" src="./images/others/feature-bike.png" alt="">
+                <img class="w-full" src="./images/others/feature-bike.png" alt="">
+                <img class="w-full" src="./images/others/feature-bike.png" alt="">
 
             </div>
 
         </div>
 
         <!-- latest news -->
-        <div class="m-10">
+        <div class="p-10">
             <h2 class="font-extrabold text-4xl text-center">Latest News</h2>
 
         
-            <div class="flex justify-center gap-8">
+            <div class="flex flex-col lg:flex-row justify-center gap-8">
                 <!-- starting of card -->
 
 
-                <div class="card bg-base-100 w-96 shadow-xl">
+                <div class="card bg-base-100 max-w-96 shadow-xl">
                     <figure>
                         <img src="./images/others/extrabike.png" alt="Shoes" />
                     </figure>
@@ -194,7 +143,7 @@
                     </div>
                 </div>
 
-                <div class="card bg-base-100 w-96 shadow-xl">
+                <div class="card bg-base-100 w shadow-xl">
                     <figure>
                         <img src="./images/others/extrabike.png" alt="Shoes" />
                     </figure>
@@ -208,7 +157,7 @@
                 </div>
 
 
-                <div class="card bg-base-100 w-96 shadow-xl">
+                <div class="card bg-base-100  shadow-xl">
                     <figure>
                         <img src="./images/others/extrabike.png" alt="Shoes" />
                     </figure>
@@ -235,15 +184,15 @@
 
 
         <!-- happy client says stat from  here -->
-        <div class="m-10">
+        <div >
             <div class="text-center">
                 <h2 class="text-4xl font-bold">Happy <span class="text-orange-600">Clients Says</span></h2>
 
             </div>
 
-            <div class="flex justify-center gap-10">
+            <div class="flex flex-col lg:flex-row justify-center gap-10">
 
-                <div class=" card bg-base-100 w-96 shadow-xl">
+                <div class=" card bg-base-100  shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src="./images/others/user-1.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -269,7 +218,7 @@
                     </div>
                 </div>
 
-                <div class=" card bg-base-100 w-96 shadow-xl">
+                <div class=" card bg-base-100  shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src="./images/others/user-2.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -297,7 +246,7 @@
 
 
 
-                <div class=" card bg-base-100 w-96 shadow-xl">
+                <div class=" card bg-base-100  shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src="./images/others/user-3.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -341,14 +290,14 @@
             </h2>
 
 
-            <div class=" flex justify-between">
+            <div class=" flex flex-col lg:flex-row justify-between">
 
                 <div>
                     <img class="w-full" src="./images/others/faq.png" alt="">
 
 
                 </div>
-                <div class="m-20">
+                <div class="lg:m-20">
                     <div class="collapse collapse-arrow bg-base-200">
                         <input type="radio" name="my-accordion-2" checked="checked" />
                         <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
